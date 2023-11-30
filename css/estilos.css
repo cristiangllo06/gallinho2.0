@@ -19,15 +19,16 @@ font-size:12px;
 /*Formatação do Paragrafo, do exemplo da Linguagem jQuery.*/
 p{margin-bottom:10px;}
 pre {
-	background: #27981b;
-	color: #000;
-	line-height: 18px;
-	margin-bottom: 18px;
-	padding: 1.5em;
-	margin-bottom:20px;
-	margin-top:20px;
-	border: #000 1px dotted;
+background: #27981b;
+color: #000;
+line-height: 18px;
+margin-bottom: 18px;
+padding: 1.5em;
+margin-bottom:20px;
+margin-top:20px;
+border: #000 1px dotted;
 }
+
 /* Formatação do MENU Geral da página index.html */
 #geral{
 width:760px;
@@ -113,21 +114,21 @@ text-align:center;
 
 /*RODAPÉ*/
 #rodape{
-	background-color:#27981b;
-	color: #ffffff;/*cores da fonte do Rodapé*/
-	clear:both;
-	float:left;
+background-color:#27981b;
+color: #ffffff;/*cores da fonte do Rodapé*/
+clear:both;
+float:left;
 }
 
-	.rodape_navegacao_itens{
-		width:149px;
-		height:310px;
-		border-right-width:1px;
-		border-right-color:black;
-		border-right-style:solid;
-		padding:20px;
-		float:left;
-	}
+.rodape_navegacao_itens{
+width:149px;
+height:310px;
+border-right-width:1px;
+border-right-color:black;
+border-right-style:solid;
+padding:20px;
+float:left;
+}
 	
 
 /* MENU de formatação do título H2. */
