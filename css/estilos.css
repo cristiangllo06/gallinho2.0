@@ -129,19 +129,6 @@ text-align:center;
 		float:left;
 	}
 	
-.rodape_navegacao_itens li{
-list-style:disc;
-font-size:12px;
-margin-bottom:10px;
-}
-
-#direitos_reservados{
-width:740px;
-text-align:right;
-font-size:10px;
-clear:both;
-padding:10px;
-}
 
 /* MENU de formatação do título H2. */
 h1 {
@@ -156,7 +143,7 @@ font-family: 'FonteLogo', sans-serif;
 font-size: 15pt;
 }
 
-/*nMENU de formatação do Parágrafo. */
+/*MENU de formatação do Parágrafo. */
 p {
 text-align: justify;
 text-indent: 50px;
