@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<head>
+		<title>JOHN DEERE</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="content-language" content="pt" />
+		<meta name="description" content="No site Client-Side você vai encontrar artigos referentes ao 
+		desenvolvimento web clientside como HTML5; JavaScript; CSS3; e jQuery" />
+		<meta name="keywords" content="JavaScript, CSS3, HTML5, jQuery" />
+		<meta name="author" content="Cristian" >
+		<script type="text/javascript" src="js/comportamento.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css" />
+	</head>
+	<body>
+		<div id="geral">
+			<div id="cabecalho">
+				<div id="logotipo">
+					<a href="/clientside/index.php">
+						<img src="img/tratorzao.jpeg" title="Logo Client-Side" alt="Logo Client-Side" border="0" />
+					</a>
+				</div>
+				<div id="menu">
+					<ul>
+						<li><a href="/clientside/index.php">Home</a></li>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>jQuery</li>
+						<li>Acessibilidade</li>
+						<li>Usabilidade</li>
+						<li><a href="index.php?pag=fale-conosco">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="corpo">
+				<? if($pag == ""){?>
+				<div id="destaques">
+					<div id="destaques_top">
+						<div id="destaque_top_esquerda">
+							<h1>TRATOR JOHN DEERE:</h1>
+							<p>
+							A história de John Deere está intimamente ligada    à
+							evolução da agricultura e ao desenvolvimento       de
+							máquinas agrícolas. 
+							Aqui está um resumo dos principais eventos         na
+							história da empresa:
+						    </p>
+							
+							<img src="img/verdao.jpeg" title="Trator JOHN DEERE" alt="Trator John Deere" />
+							
+							<h2>Uma Breve Descrição da História da Empresa:</h2>
+							<p>
+							01) Fundação da Empresa (1837): A John Deere foi  fundada
+							por John Deere em Grand Detour, Illinois, em 1837.
+							Inicialmente, Deere era um ferreiro que percebeu    a
+							necessidade de um arado de aço polido que         não
+							grudasse o solo durante o arado, facilitando        o
+							trabalho dos agricultores.
+							02) Arado de Aço (1838): Em 1838, John Deere fabricou
+							seu primeiro arado de aço polido, uma inovação    que
+							revolucionou a agricultura. O arado de aço era   mais
+							durável e eficiente do que os arados de       madeira
+							existentes na época.
+							03)Diversificação de Produtos (século XX):   Ao longo
+							do século XX, a John Deere continuou a   diversificar
+							sua linha de produtos, fabricando uma ampla variedade
+							de equipamentos agrícolas, de construção e   máquinas
+							para paisagismo.
+							A John Deere continua a desempenhar um papel  crucial
+							na modernização da agricultura, oferecendo uma  ampla
+							gama de produtos e tecnologias para apoiar         os
+							agricultores em todo o mundo.	
+							</p>
+							
+							<h2> ALGUNS MODELOS DA LINHA 2024:</h2>
+							
+							<pre>Trator 3036EN; <br /> Tratores 7M;<br /> Trator de 250cv 8250R; </pre>
+							
+							
+						</div>
+						
+						<div id="destaque_top_direita">
+							<h1>Teste do TRATOR:</h1>
+							
+							<iframe width="360" height="315" src="https://www.youtube.com/embed/HZsDnr_dUXg?si=QiMXhJ8G9aE50RW6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							
+							<span class="legenda">
+							Trator John Deere
+							</span>
+							
+							<div  id="destuqe_top_direita_especial">
+								<div class="destaque_top_direita_dividido">
+									<h1>Trator jhon Deere 8R </h1>
+									
+									<p>O trator mais potente produzido no Brasil,
+									entregando ainda mais produtividade;Opçao
+									de pneus 800/70R38, duplos na traseira,
+									maior traçao e flutuaçao,eixo dianteiro com suspensão independente (ILS),
+									até 9% a mais em produtividade.</p>
+									
+									
+							
+								</div>
+								<div class="destaque_top_direita_dividido">
+
+									<h1>Mais Informações sobre a Maquina</h1>
+
+									<p>
+									A serie é composta por seis modelos que vão de 270 a 400CV,
+									O tratores 8R são os maiores potentes fabricados no Brasil com (370CV),
+									Sua nova Transmissão de 23 marchas.</p>
+							
+									
+									
+									
+								
+								   
+								</div>
+							</div>
+						</div>
+					</div>
+						<div id="destaque_bottom_direita">
+							<img src="img/conheca_os_cursos_cpt.jpg" title="Conheça os CURSOS CPT" alt="Conheça os CURSOS CPT" />
+							<h1>Conheça os CURSOS CPT</h1>
+						</div>
+					</div>
+				</div>
+				<?
+				}else{
+					include($pag.".html");
+				}?>
+			</div>
+			<div id="rodape">
+				<div id="navegacao"></div>
+			<div id="direitos_reservados">
+				<hr />
+				© 2021-2023. Todos Os Direitos São Reservados.
+			</div>
+		</div>
+	</body>
+</html>
+
+</html>
